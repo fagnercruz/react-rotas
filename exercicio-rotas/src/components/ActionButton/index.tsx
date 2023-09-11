@@ -1,5 +1,9 @@
 import "./style.css";
 
-export default function ActionButton() {
-  return <button>Avançar</button>;
+type Props = {
+  label: string;
+};
+
+export default function ActionButton({ label }: Props) {
+  return <button>{label}</button>;
 }

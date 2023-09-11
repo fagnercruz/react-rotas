@@ -1,6 +1,10 @@
 .header-container {
-  background-color: rgb(66, 24, 24);
-  color: aliceblue;
+  background-color: var(--color-vermelho);
+  color: var(--color-branco);
 
   padding: 20px 50px;
+}
+
+.h1link {
+  text-decoration: none;
 }

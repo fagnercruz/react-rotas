@@ -1,10 +1,10 @@
 import ContentCard from "../../components/ContentCard";
 
-export default function Home() {
+export default function Subscription() {
   return (
     <>
       <ContentCard
-        conteudo="Página inicial"
+        conteudo="Página de inscrição"
         btnLabel="Ver promoção"
         rota="/promo"
       />

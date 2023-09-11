@@ -4,6 +4,20 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+:root {
+  --color-vermelho: #ff2323;
+  --color-branco: #fff;
+  --color-h1: #6f6f6f;
+  --bg-body: #dadada;
+  --bg-card: #ffffff;
+}
+
 body {
-  background-color: rgb(185, 185, 185);
+  background-color: var(--bg-body);
+  font-family: sans-serif;
 }

@@ -1,0 +1,11 @@
+button {
+  background-color: var(--color-vermelho);
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--color-branco);
+}
