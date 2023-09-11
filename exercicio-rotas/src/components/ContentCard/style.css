@@ -1,0 +1,12 @@
+.main-container {
+  border: 1px solid red;
+  width: 70%;
+}
+
+.content-container {
+  border: 1px solid yellow;
+}
+
+.content-data {
+  border: 1px solid brown;
+}
