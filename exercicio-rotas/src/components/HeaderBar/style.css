@@ -1,8 +1,25 @@
 .header-container {
   background-color: var(--color-vermelho);
   color: var(--color-branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 290px;
+}
 
-  padding: 20px 50px;
+nav {
+  display: flex;
+  gap: 70px;
+}
+
+.activeLink {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+.normalLink {
+  font-weight: lighter;
+  color: rgb(200, 201, 201);
 }
 
 .h1link {
